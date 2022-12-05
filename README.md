@@ -11,7 +11,7 @@
 2. Build-in modules which you can use without any further installation.`(http, url, path, fs, os).`
 3. External modules `managed by npm.`
 
-### 2.1 fs module (writeFile, appendFile, readFie, renameFile, unlink, Exists)
+### 2.1 fs module (writeFile, appendFile, readFile, renameFile, unlink, Exists)
 
 ```JavaScript
 const fs = require('fs');
@@ -145,9 +145,9 @@ myServer.listen(3000, () => {
 
 `nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.`
 
-- first npm init -y
+- first run the command npm init -y
 - create server
-- npm instal nodemon
+- npm install nodemon
 
 ```JavaScript
 const http = require("http");
